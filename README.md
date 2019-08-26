@@ -9,7 +9,7 @@ You should not import this library unless the following conditions all meets:
 * You have code dependency for Weex 0.26 or prior.
 * You don't want change your code to fit Weex 0.27 at this time.
 
-*New users of Weex should never import this library.*
+**New users of Weex should never import this library.**
 
 # Note
 This library may be removed or deprecated in the future, please change your code to fit latest `API` of Weex when it's convenience for you.
