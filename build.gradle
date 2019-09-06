@@ -17,8 +17,15 @@ buildscript {
 allprojects {
     repositories {
         google()
-        jcenter()
-        
+        maven(){
+            url 'https://maven.aliyun.com/repository/google'
+        }
+        maven() {
+            url 'http://oss.jfrog.org/oss-snapshot-local/'
+        }
+        jcenter(){
+            url 'https://maven.aliyun.com/repository/jcenter'
+        }
     }
 }
 
